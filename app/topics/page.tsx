@@ -77,7 +77,7 @@ const VideoPreview: React.FC<{ url: string }> = ({ url }) => {
   }
 
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="block">
+    <a href={url} target="_blank" rel="noopener noreferrer" className="block mt-3">
       <div className="flex items-center gap-3 rounded-md border border-zinc-200 bg-white p-2 transition hover:shadow-sm dark:border-zinc-700 dark:bg-zinc-900">
         {thumb ? (
           <img src={thumb} alt={title ?? url} className="h-[100px] w-[100px] flex-none rounded object-cover" loading="lazy" />
@@ -136,9 +136,9 @@ export default function TopicsPage() {
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 p-6 dark:bg-black">
       <main className="w-full max-w-4xl rounded-xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
         <header className="sticky top-0 z-10 border-b border-zinc-200 bg-white/90 p-5 backdrop-blur dark:border-zinc-800 dark:bg-zinc-900/80">
-          <h1 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">Topics</h1>
+          <h1 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">Titles</h1>
           <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-            Expand a type to see its subtypes. Expand a subtype to see example links.
+            Created by Daniil Orain, managed by the <a href={"https://github.com/ungarson/TypesOfYouTubeVideoTitles"} className={"text-blue-300"} target={"_blank"}>community</a>.
           </p>
         </header>
         {/* Scrollable content box */}
@@ -199,7 +199,7 @@ export default function TopicsPage() {
                                   {subOpen && (
                                     <div className="px-3 pb-2">
                                       {sub.examples && sub.examples.length > 0 ? (
-                                        <div className="grid grid-cols-1 gap-3">
+                                        <div className="grid grid-cols-1">
                                           {sub.examples.map((url, i) => (
                                             <VideoPreview key={i} url={url} />
                                           ))}
