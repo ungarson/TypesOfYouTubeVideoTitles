@@ -178,20 +178,20 @@
     "type": "Something outstanding",
     "subtypes": [
       {
-        "type": "Most important / the weirdest / the something-est",
+        "type": "Most important / the weirdest / the *something*-est",
         "examples": [
           "https://www.youtube.com/watch?v=SmZmBKc7Lrs",
           "https://www.youtube.com/watch?v=J4GNW3lCGmI"
         ]
       },
       {
-        "type": "How somebody does something outstanding",
+        "type": "How somebody does *something* outstanding",
         "examples": [
           "https://www.youtube.com/watch?v=Pi5taR18uZ8"
         ]
       },
       {
-        "type": "Something that we’re used to have some weird traits/attributes/something",
+        "type": "Something that we’re used to have some weird traits/attributes/*something*",
         "examples": [
           "https://www.youtube.com/watch?v=6fnmXX8RK0s"
         ]

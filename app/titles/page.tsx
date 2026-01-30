@@ -136,9 +136,9 @@ export default function TopicsPage() {
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 p-6 dark:bg-black">
       <main className="w-full max-w-4xl rounded-xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
         <header className="sticky top-0 z-10 border-b border-zinc-200 bg-white/90 p-5 backdrop-blur dark:border-zinc-800 dark:bg-zinc-900/80">
-          <h1 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">Titles</h1>
+          <h1 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">YouTube Video Titles</h1>
           <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-            Created by Daniil Orain, managed by the <a href={"https://github.com/ungarson/TypesOfYouTubeVideoTitles"} className={"text-blue-300"} target={"_blank"}>community</a>.
+            Classification of YouTube videos titles that showed prominence. <br /> Created by Daniil Orain, managed by the <a href={"https://github.com/ungarson/TypesOfYouTubeVideoTitles"} className={"text-blue-300"} target={"_blank"}>community</a>.
           </p>
         </header>
         {/* Scrollable content box */}
