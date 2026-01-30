@@ -100,7 +100,7 @@ const VideoPreview: React.FC<{ url: string }> = ({ url }) => {
 };
 
 export default function TopicsPage() {
-  // Prepare a stable, sorted array of topics
+  // Prepare a stable, sorted array of titles
   const topics = useMemo(() => {
     return Object.entries(topicsData)
       .sort(([a], [b]) => Number(a) - Number(b))

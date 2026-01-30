@@ -6,8 +6,8 @@ export function middleware(request: NextRequest) {
   const host = request.headers.get("host") || "";
   const hostname = host.split(":")[0];
 
-  // If on topics subdomain, route everything to /topics page
-  if (hostname.startsWith("topics.")) {
+  // If on titles subdomain, route everything to /titles page
+  if (hostname.startsWith("titles.")) {
     // Allow Next.js internals and static assets to pass through
     if (
       url.pathname.startsWith("/_next") ||
@@ -17,8 +17,8 @@ export function middleware(request: NextRequest) {
       return NextResponse.next();
     }
 
-    if (url.pathname !== "/topics") {
-      url.pathname = "/topics";
+    if (url.pathname !== "/titles") {
+      url.pathname = "/titles";
       return NextResponse.rewrite(url);
     }
   }
