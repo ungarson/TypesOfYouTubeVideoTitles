@@ -1,25 +1,24 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-export function middleware(request: NextRequest) {
-  const url = request.nextUrl.clone();
-  const host = request.headers.get("host") || "";
-  const hostname = host.split(":")[0];
+export function middleware(req: NextRequest) {
+  const url = req.nextUrl;
+  const host = req.headers.get("host") || "";
 
-  // If on titles subdomain, route everything to /titles page
-  if (hostname.startsWith("titles.")) {
-    // Allow Next.js internals and static assets to pass through
-    if (
-      url.pathname.startsWith("/_next") ||
-      url.pathname === "/favicon.ico" ||
-      url.pathname.startsWith("/public/")
-    ) {
-      return NextResponse.next();
+  // When visiting titles.* subdomain, map root to /titles and preserve subpaths under /titles
+  if (host.startsWith("titles.")) {
+    // Root → /titles
+    if (url.pathname === "/" || url.pathname === "") {
+      const rewriteUrl = url.clone();
+      rewriteUrl.pathname = "/titles";
+      return NextResponse.rewrite(rewriteUrl);
     }
 
-    if (url.pathname !== "/titles") {
-      url.pathname = "/titles";
-      return NextResponse.rewrite(url);
+    // Any other path → /titles/<path> (if not already under /titles)
+    if (!url.pathname.startsWith("/titles")) {
+      const rewriteUrl = url.clone();
+      rewriteUrl.pathname = `/titles${url.pathname}`;
+      return NextResponse.rewrite(rewriteUrl);
     }
   }
 
@@ -27,5 +26,6 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: "/:path*",
+  // Exclude Next.js internals and common static assets
+  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
 };
