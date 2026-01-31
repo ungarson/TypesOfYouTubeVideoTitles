@@ -1,5 +1,170 @@
 {
   "0": {
+    "type": "Something outstanding",
+    "subtypes": [
+      {
+        "type": "Most important / the weirdest / the *something*-est",
+        "examples": [
+          "https://www.youtube.com/watch?v=SmZmBKc7Lrs",
+          "https://www.youtube.com/watch?v=J4GNW3lCGmI"
+        ]
+      },
+      {
+        "type": "How somebody does or become *something or someone* outstanding",
+        "examples": [
+          "https://www.youtube.com/watch?v=Pi5taR18uZ8",
+          "https://www.youtube.com/watch?v=CVpfPETFPhE"
+        ]
+      },
+      {
+        "type": "Something that we’re used to have some weird traits/attributes/*something*",
+        "examples": [
+          "https://www.youtube.com/watch?v=6fnmXX8RK0s"
+        ]
+      },
+      {
+        "type": "Bingo",
+        "examples": [
+          "https://www.youtube.com/watch?v=zYmkOInF6Us"
+        ]
+      },
+      {
+        "type": "It changed everything",
+        "examples": [
+          "https://www.youtube.com/watch?v=0-MA3jgYMMg"
+        ]
+      },
+      {
+        "type": "*Something* went wrong",
+        "examples": [
+          "https://www.youtube.com/watch?v=9KC3VSDZPIc"
+        ]
+      },
+      {
+        "type": "Never-before-seen *something*",
+        "examples": [
+          "https://www.youtube.com/watch?v=CEQam0pVLx8"
+        ]
+      },
+      {
+        "type": "Do something common but have a plot twist",
+        "examples": [
+          "https://www.youtube.com/watch?v=KWQ8aWkBYjE"
+        ]
+      }
+    ]
+  },
+  "1": {
+    "type": "Telling a story about something",
+    "subtypes": [
+      {
+        "type": "A day at *some place*",
+        "examples": [
+          "https://www.youtube.com/watch?v=iQBFhvr9cTQ"
+        ]
+      },
+      {
+        "type": "Getting deeper into *something*",
+        "examples": [
+          "https://www.youtube.com/watch?v=GhFgnkLPZj4"
+        ]
+      },
+      {
+        "type": "It took me *some time* to realize *something*",
+        "examples": [
+          "https://www.youtube.com/watch?v=xz-ymFOhBAE",
+          "https://www.youtube.com/watch?v=hQTL0ph-usE"
+        ]
+      },
+      {
+        "type": "It makes me *this amount* of money",
+        "examples": [
+          "https://www.youtube.com/watch?v=9vS5kvxbPMQ"
+        ]
+      }
+    ]
+  },
+  "2": {
+    "type": "History",
+    "subtypes": [
+      {
+        "type": "Every day/year of *something* (evolution)",
+        "examples": [
+          "https://www.youtube.com/watch?v=0B-ddXKAWGU"
+        ]
+      },
+      {
+        "type": "The entire history of *something*",
+        "examples": [
+          "https://www.youtube.com/watch?v=OdJXbxA79qI"
+        ]
+      }
+    ]
+  },
+  "3": {
+    "type": "Street Interviews",
+    "subtypes": [
+      {
+        "type": "100 people",
+        "examples": [
+          "https://www.youtube.com/watch?v=JnDpjzzRwTs"
+        ]
+      },
+      {
+        "type": "Personal interview",
+        "examples": [
+          "https://www.youtube.com/watch?v=h_LMdoCuSRM"
+        ]
+      },
+      {
+        "type": "Exploring cultures",
+        "examples": [
+          "https://www.youtube.com/watch?v=pkaz6cfRYKk"
+        ]
+      }
+    ]
+  },
+  "5": {
+    "type": "Ratings",
+    "subtypes": [
+      {
+        "type": "Top *n* of the best",
+        "examples": [
+          "https://www.youtube.com/watch?v=fYy-hjql1j4"
+        ]
+      },
+      {
+        "type": "Tier list",
+        "examples": [
+          "https://www.youtube.com/watch?v=g2NwiQ-vIu0",
+          "https://www.youtube.com/watch?v=XGSptykSrqg"
+        ]
+      }
+    ]
+  },
+  "6": {
+    "type": "Languages",
+    "subtypes": [
+      {
+        "type": "Understanding each other",
+        "examples": [
+          "https://www.youtube.com/watch?v=kCt9ciHrVjk"
+        ]
+      }
+    ]
+  },
+  "7": {
+    "type": "AI",
+    "subtypes": [
+      {
+        "type": "Reimagined by AI",
+        "examples": [
+          "https://www.youtube.com/watch?v=TGR4XSvCOB8"
+        ]
+      }
+    ]
+  },
+  "8": {
     "type": "Explanations of topics",
     "subtypes": [
       {
@@ -78,138 +243,6 @@
       }
     ]
   },
-  "1": {
-    "type": "Telling a story about something",
-    "subtypes": [
-      {
-        "type": "A day at the …",
-        "examples": [
-          "https://www.youtube.com/watch?v=iQBFhvr9cTQ"
-        ]
-      },
-      {
-        "type": "Getting deeper into something that we’re used to",
-        "examples": [
-          "https://www.youtube.com/watch?v=GhFgnkLPZj4"
-        ]
-      }
-    ]
-  },
-  "2": {
-    "type": "History",
-    "subtypes": [
-      {
-        "type": "Every day/year of *something* (evolution)",
-        "examples": [
-          "https://www.youtube.com/watch?v=0B-ddXKAWGU"
-        ]
-      },
-      {
-        "type": "The entire history of *something*",
-        "examples": [
-          "https://www.youtube.com/watch?v=OdJXbxA79qI"
-        ]
-      }
-    ]
-  },
-  "3": {
-    "type": "Street Interviews",
-    "subtypes": [
-      {
-        "type": "100 people",
-        "examples": [
-          "https://www.youtube.com/watch?v=JnDpjzzRwTs"
-        ]
-      },
-      {
-        "type": "Personal interview",
-        "examples": [
-          "https://www.youtube.com/watch?v=h_LMdoCuSRM"
-        ]
-      },
-      {
-        "type": "Exploring cultures",
-        "examples": [
-          "https://www.youtube.com/watch?v=pkaz6cfRYKk"
-        ]
-      }
-    ]
-  },
-  "5": {
-    "type": "Ratings",
-    "subtypes": [
-      {
-        "type": "Top *n* of the best",
-        "examples": [
-          "https://www.youtube.com/watch?v=fYy-hjql1j4"
-        ]
-      },
-      {
-        "type": "Tier list",
-        "examples": [
-          "https://www.youtube.com/watch?v=g2NwiQ-vIu0"
-        ]
-      }
-    ]
-  },
-  "6": {
-    "type": "Languages",
-    "subtypes": [
-      {
-        "type": "Understanding each other",
-        "examples": [
-          "https://www.youtube.com/watch?v=kCt9ciHrVjk"
-        ]
-      }
-    ]
-  },
-  "7": {
-    "type": "AI",
-    "subtypes": [
-      {
-        "type": "Reimagined by AI",
-        "examples": [
-          "https://www.youtube.com/watch?v=TGR4XSvCOB8"
-        ]
-      }
-    ]
-  },
-  "8": {
-    "type": "Something outstanding",
-    "subtypes": [
-      {
-        "type": "Most important / the weirdest / the *something*-est",
-        "examples": [
-          "https://www.youtube.com/watch?v=SmZmBKc7Lrs",
-          "https://www.youtube.com/watch?v=J4GNW3lCGmI"
-        ]
-      },
-      {
-        "type": "How somebody does *something* outstanding",
-        "examples": [
-          "https://www.youtube.com/watch?v=Pi5taR18uZ8"
-        ]
-      },
-      {
-        "type": "Something that we’re used to have some weird traits/attributes/*something*",
-        "examples": [
-          "https://www.youtube.com/watch?v=6fnmXX8RK0s"
-        ]
-      },
-      {
-        "type": "Bingo",
-        "examples": [
-          "https://www.youtube.com/watch?v=zYmkOInF6Us"
-        ]
-      },
-      {
-        "type": "It changed everything",
-        "examples": [
-          "https://www.youtube.com/watch?v=0-MA3jgYMMg"
-        ]
-      }
-    ]
-  },
   "9": {
     "type": "Live Streams",
     "subtypes": [
@@ -233,6 +266,18 @@
     ]
   },
   "11": {
+    "type": "Travelling",
+    "subtypes": [
+      {
+        "type": "Solo in *somewhere*",
+        "examples": [
+          "https://www.youtube.com/watch?v=Dd4cDuZklGE",
+          "https://www.youtube.com/watch?v=m30Radm6n-0"
+        ]
+      }
+    ]
+  },
+  "12": {
     "type": "Anything else",
     "subtypes": [
       {
